@@ -26,7 +26,7 @@ img{
 }
 
 /*****subscribe Style****/
-.subscribe {
+.Subscribe {
 position: absolute;
 width: 72px;
 height: 21px;
@@ -41,31 +41,7 @@ text-align: right;
 color: #E54A5D;
 }
 
-.modal-body.email{
-position: absolute;
-width: 378px;
-height: 40px;
-left: 494px;
-top: 962px;
-padding:15px;
-background: #FFFFFF;
-border: 1px solid #E2DADB;
-border-radius: 50px;
-}
-.modal-body.btn{
-position: absolute;
-width: 147px;
-height: 40px;
-left: 799px;
-top: 962px;
-background: #E54A5D;
-border-radius: 50px;
-color:white;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 24px;
-}    
+ 
 /* Who we are? */
 
 .who {
@@ -179,184 +155,63 @@ line-height: 48px;
 color: #6C6475;
 
 }
+#days{
+    position: absolute;
+    width: 80px;
+    height: 96px;
+    left: 501px;
+    top: 694px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #E54A5D;
+    }
+    #hours{
+    position: absolute;
+    width: 66px;
+    height: 96px;
+    left: 625px;
+    top: 694px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #E54A5D;
+    }
+    
+    #minutes{
+    position: absolute;
+    width: 76px;
+    height: 96px;
+    left: 736px;
+    top: 694px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #E54A5D;
+    }
+    
+    #seconds{
+    position: absolute;
+    width: 82px;
+    height: 96px;
+    left: 856px;
+    top: 694px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #E54A5D;
+    }
+    
 
 
-/* 30 */
-
-#groupe-counter .part1 p{
-position: absolute;
-width: 80px;
-height: 96px;
-left: 501px;
-top: 694px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 64px;
-line-height: 96px;
-/* identical to box height */
-color: #E54A5D;
-}
-/* Days */
-
-.Days {
-position: absolute;
-width: 31px;
-height: 18px;
-left: 526px;
-top: 785px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height */
-text-align: center;
-color: #6C6475;
-}
-
-
-/* : */
-.separater1{
-position: absolute;
-width: 17px;
-height: 96px;
-left: 595px;
-top: 689px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 64px;
-line-height: 96px;
-/* identical to box height */
-color: rgba(108, 100, 117, 0.2);
-}
-.part2 p{
-position: absolute;
-width: 66px;
-height: 96px;
-left: 625px;
-top: 694px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 64px;
-line-height: 96px;
-/* identical to box height */
-color: #E54A5D;
-}
-
-/* Hours */
-
-.Hours{
-position: absolute;
-width: 36px;
-height: 18px;
-left: 640px;
-top: 785px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height */
-text-align: center;
-color: #6C6475;
-
-}
-.part3{
-position: absolute;
-width: 76px;
-height: 96px;
-left: 736px;
-top: 694px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 64px;
-line-height: 96px;
-/* identical to box height */
-color: #E54A5D;
-}
-
-.Minutes{
-position: absolute;
-width: 49px;
-height: 18px;
-left: 750px;
-top: 785px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height */
-text-align: center;
-color: #6C6475;
-}
-
-/* : */
-
-.separater2{
-position: absolute;
-width: 17px;
-height: 96px;
-left: 705px;
-top: 689px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 64px;
-line-height: 96px;
-color: rgba(108, 100, 117, 0.2);
-}
-
-.separater3{
- position: absolute;
-width: 17px;
-height: 96px;
-left: 826px;
-top: 689px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 64px;
-line-height: 96px;
-/* identical to box height */
-color: rgba(108, 100, 117, 0.2);
-}
-.part4 p{
-position: absolute;
-width: 82px;
-height: 96px;
-left: 856px;
-top: 694px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 64px;
-line-height: 96px;
-/* identical to box height */
-color: #E54A5D;
-}
-
-
-/* Seconds */
-.Seconds{
-position: absolute;
-width: 53px;
-height: 18px;
-left: 870px;
-top: 785px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 18px;
-/* identical to box height */
-text-align: center;
-color: #6C6475;
-}
 /* Ellipse_7 */
 
 

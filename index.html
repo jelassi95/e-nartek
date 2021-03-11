@@ -3,38 +3,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-nartek website</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+    
+         
 </head>
 <body>
     <div class="banner">
         <div class="container">
             <img src="images/Logo.svg" alt="Logo">
 
-            <!-- Trigger the modal with a button -->
-  <a class="Subscribe" data-toggle="modal" data-target="#myModal">Subscribe</a>
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
     
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title text-center">Be the first to know when e-nartek lanches</h4>
-        <div class="modal-body text-center">
-        <input class="email" type="text" placeholder="Your email goes here">
-        <button class="btn" type="button"  data-dismiss="modal">Let me know</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                <a href="" type="text" class="Subscribe" data-toggle="modal" data-target="#logModal">Subscribe</a>
+                    <div class="modal fade" role="dialog" id="logModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="moadal-title">
+                                        Be the first to know when e-nartek lanches 
+                                    </h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Your email goes here">
+                                    </div>
+                                </div>
 
+                                <div class="modal-footer">
+                                    <button  type="submit" class="btn btn-danger">Let me know</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         <a href="./who-we-are.html" class="who">Who we are ?</a>
             <p class="Line2"></p>
 
@@ -45,34 +48,18 @@
                     <br> <span class="grey">your Process</span>  </h2>
                 <img src="images/Artwork.png" class="Artwork" alt="">
                 <div class="Ellipse7"></div>
-                <div id="groupe-counter">
-                    <div class="part1">
-                        <p>30</p>
-                    </div>
-                    <div class="Days">Days
-                    </div>
-                    <div class="separater1">:</div>
+               
 
-                    <div class="part2">
-                        <p>14</p>
-                    </div>
-                    <div class="Hours">Hours
-                    </div>
-                    <div class="separater2">:</div>
-
-                    <div class="part3">
-                        <p>23</p>
-                    </div>
-                    <div class="Minutes">Minutes
-                    </div>
-                    <div class="separater3">:</div>
-                    
-                    <div class="part4">
-                        <p>09</p>
-                    </div>
-                    <div class="Seconds">Seconds
+                <div class="content">
+                    <div class="numbers">
+                        <div class="Days" id="days"> Days</div>
+                        <div class="Hours" id="hours">Hours</div>
+                        <div class="Minutes" id="minutes">Minutes</div>
+                        <div class="Seconds" id="seconds">Seconds</div>
                     </div>
                 </div>
+
+
                 <h3>Be the first to know when e-nartek lanches</h3>
 
             </div> 
@@ -93,6 +80,37 @@
                 </div>
         </div>
     </footer>
-    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script>
+     jQuery (function($){
+         var launch = new Date(2021,03,11,09,00,00);
+         var days = $('#days');
+         var hours = $('#hours');
+         var minutes = $('#minutes');
+         var seconds = $('#seconds');
+
+         setDate();
+         function setDate(){
+            var now = new Date();
+            var s =  (launch.getTime() - now.getTime())/1000;
+            var d = Math.floor(s/86400);
+            days.html('<strong>'+d+'</strong>' +':');
+            s-= d*86400;
+
+            var h = Math.floor(s/3600);
+            hours.html('<strong>'+h+'</strong>' + ':');
+            s-= h*3600;
+
+            var m = Math.floor(s/60);
+            minutes.html('<strong>'+m+'</strong>'+ ':');
+            s-= m*60;
+
+            var s = Math.floor(s);
+            seconds.html('<strong>'+s+'</strong>'  );
+            s-= s*60;
+            setTimeout(setDate,1000);
+         }
+     })
+    </script>  
 </body>
 </html>
