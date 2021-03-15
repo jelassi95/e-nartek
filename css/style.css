@@ -3,71 +3,55 @@ body{
     overflow-x: hidden;
     background: #ffff;
 }   
-
-.Ellipse7{
-position: absolute;
-left: -95.96%;
-right: -91.26%;
-top: 49.34%;
-bottom: -37.05%;
-background: linear-gradient(360deg, #FA9058 -85579.98%, rgba(255, 255, 255, 0.0001) 20012.39%);
-transform: rotate(-7.73deg);
-}
-
-
 /*****logo Style****/
-
 img{
-    position: absolute;
-    width: 90px;
-    height: 75.76px;
-    left: 135px;
-    top: 32px;
+   max-width: 100%;
 }
-
-/*****subscribe Style****/
-.Subscribe {
-position: absolute;
-width: 72px;
-height: 21px;
-left: 1110px;
-top: 40px;
+/*****subscribe who we are Style****/
+.navbar-light .navbar-nav .nav-link{
+color: #E54A5D;
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
-line-height: 21px;
-text-align: right;
-color: #E54A5D;
 }
-
- 
-/* Who we are? */
-
-.who {
- position: absolute;
- width: 91px;
- height: 21px;
- left: 1214px;
- top: 40px;   
- font-family: Poppins;
- font-style: normal;
- font-weight: 600;
- font-size: 14px;
- line-height: 21px;
-/* identical to box height */    
- text-align: right;   
- color: #6C6475;   
+/***Sucscribe Modal***/
+.h5{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+color: #6C6475;
+margin-left: 15px;
 }
-
+.input{
+width: 320px;
+height: 40px;
+padding:15px;
+background: #FFFFFF;
+border: 1px solid #E2DADB;
+border-radius: 50px;
+margin-top: 50px;
+margin-left: 15px;
+}
+.btn1{
+width: 147px;
+height: 40px;
+background: #E54A5D;
+border-radius: 50px;
+color:white;
+font-style: normal;
+font-weight: bold;
+}
+#popUpWindow{
+border-radius: 50px;    
+}
 /* Line 2 */
-
 .line2{
-position: absolute;
 width: 18px;
 height: 0px;
-left: 1198px;
-top: 50px;
+margin-top: 15px;
 border: 1px solid #E3E0E6;
 transform: rotate(90deg);
 }
@@ -77,8 +61,7 @@ transform: rotate(90deg);
 .Line1{
 position: absolute;
 width: 31px;
-height: 0px;
-left: 234px;
+margin-left: 150px;
 top: 332px;
 border: 1px solid #E54A5D;
 }
@@ -86,9 +69,6 @@ border: 1px solid #E54A5D;
 /* Coming soon */
 .coming{
 position: absolute;
-width: 109px;
-height: 24px;
-left: 273px;
 top: 318px;
 font-family: Poppins;
 font-style: normal;
@@ -96,38 +76,30 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 color: #6C6475;
+margin-left: 200px;
 }
-
 /* Digitize your Process */
-
 h2{
 position: absolute;
-width: 318px;
-height: 124px;
-left: 234px;
 top: 361px;
-
+text-align: center;
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 48px;
-line-height: 130%;
-/* or 62px */
 color: #E54A5D;
+margin-left: 60px;
 }
-
 .grey{
-    color: #2e2e1f;
+margin-left: 57px;
+color: #2e2e1f;
 }
-
 /* Artwork */
-
 .Artwork{
 position: absolute;
-width: 376.92px;
-height: 389.03px;
 left: 730px;
 top: 239.25px;
+margin-left: 90px;
 }
 /* counter  */
 #counter{
@@ -137,9 +109,7 @@ height: 114px;
 left: 501px;
 top: 689px;
 }
-
 /* Be the first to know when e-nartek lanches */
-
 h3{
 position: absolute;
 width: 694px;
@@ -208,14 +178,8 @@ color: #6C6475;
     font-size: 64px;
     line-height: 96px;
     color: #E54A5D;
-    }
-    
-
-
-/* Ellipse_7 */
-
-
-.container input{
+}
+.email{
 position: absolute;
 width: 378px;
 height: 40px;
@@ -226,7 +190,7 @@ background: #FFFFFF;
 border: 1px solid #E2DADB;
 border-radius: 50px;
 }
-.container button{
+.btn{
 position: absolute;
 width: 147px;
 height: 40px;

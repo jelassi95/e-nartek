@@ -8,48 +8,53 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
-    
-         
 </head>
 <body>
     <div class="banner">
         <div class="container">
-            <img src="images/Logo.svg" alt="Logo">
-
-    
-                <a href="" type="text" class="Subscribe" data-toggle="modal" data-target="#logModal">Subscribe</a>
-                    <div class="modal fade" role="dialog" id="logModal">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" alt="log">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                      <a data-toggle="modal" data-target="#popUpWindow" class="nav-link" href="#">Subscribe <span class="sr-only"></span></a>
+                      <div class="modal fade" id="popUpWindow">
                         <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="moadal-title">
-                                        Be the first to know when e-nartek lanches 
-                                    </h5>
+                          <div class="modal-content">
+                              <h5 class="modal-title text-center ">Be the first to know when e-nartek lanches</h5>
+                              <form role="form">
+                                <div class="form-group ">
+                                  <input type="text" class="input text-center" placeholder="Your email goes here"/>
+                                  <button class="btn1 text-center">Let me know</button>
                                 </div>
-                                <div class="modal-body">
-                                    <div class="form-group">
-                                        <input class="form-control" type="text" placeholder="Your email goes here">
-                                    </div>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button  type="submit" class="btn btn-danger">Let me know</button>
-                                </div>
-                            </div>
+                              </form>
+                            
+                          </div>
                         </div>
-                    </div>
-        <a href="./who-we-are.html" class="who">Who we are ?</a>
-            <p class="Line2"></p>
-
+                      </div>
+                    </li>
+                    <p class="Line2"></p>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./who-we-are.html">Who we are?</a>
+                    </li>
+                    <li class="nav-item">
+                  </ul>
+                </div>
+              </nav>
             <div class="container  ">
-                <p class="Line1"></p>
-                <p class="coming">Coming soon</p>
+                <div class="section1">
+                    <p class="Line1 text-center"></p>
+                    <p class="coming text-center">Coming soon</p>
+                </div>
+               <div class="section2 ">
                 <h2> <span> Digitize</span>
-                    <br> <span class="grey">your Process</span>  </h2>
-                <img src="images/Artwork.png" class="Artwork" alt="">
-                <div class="Ellipse7"></div>
-               
-
+                <br> <span class="grey text-center">your Process</span>  </h2>
+               </div>
+               <div class="Artwork">
+                   <img src="./images/Artwork.png" alt="" class="tArtwork"> 
+               </div>
                 <div class="content">
                     <div class="numbers">
                         <div class="Days" id="days"> Days</div>
@@ -58,17 +63,16 @@
                         <div class="Seconds" id="seconds">Seconds</div>
                     </div>
                 </div>
-
-
                 <h3>Be the first to know when e-nartek lanches</h3>
-
             </div> 
         </div>
     </div>
 
     <div class="container">
-        <input type="text" placeholder="Your email goes here">
-        <button class="btn white">Let me know</button>
+      <div class="section form"> 
+        <input class="email" type="text" placeholder="Your email goes here">
+        <button class="btn ">Let me know</button>
+      </div>
     </div>
     <footer class="footer">
         <div class="container">
