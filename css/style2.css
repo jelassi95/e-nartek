@@ -1,93 +1,64 @@
-/*****General Style****/
+/*****General Style****/  
 body{
-    overflow-x: hidden;
-    background: #ffff;
-    
+background: linear-gradient(180deg, #ffff 20%, #f1dded 100%);
 }
-.Ellipse{
-    position: absolute;
-    left: -95.96%;
-    right: -91.26%;
-    top: 49.34%;
-    bottom: -37.05%;
-    background: linear-gradient(360deg, #FA9058 -85579.98%, rgba(255, 255, 255, 0.0001) 20012.39%);
-    transform: rotate(-7.73deg);
-    background-size: auto;
-    
-    }
-  
 /*****logo Style****/
-
 img{
-    position: absolute;
-    width: 90px;
-    height: 75.76px;
-    left: 135px;
-    top: 32px;
-}  
-/*****subscribe Style****/
-.subscribe {
-position: absolute;
-width: 72px;
-height: 21px;
-left: 1110px;
-top: 40px;
+   max-width: 100%;
+}
+/*****subscribe who we are Style****/
+.navbar-light .navbar-nav .nav-link{
+color: #E54A5D;
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-text-align: right;
-color: #E54A5D;
 }
-/* Who we are? */
-
-.who {
- position: absolute;
- width: 91px;
- height: 21px;
- left: 1214px;
- top: 40px;   
- font-family: Poppins;
- font-style: normal;
- font-weight: 600;
- font-size: 14px;
- line-height: 21px;
-/* identical to box height */    
- text-align: right;   
- color: #6C6475;   
+/***Sucscribe Modal***/
+.h5{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+color: #6C6475;
+margin-left: 15px;
+}
+.input{
+width: 333px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #E2DADB;
+border-radius: 50px;
+margin-top: 50px;
+padding: 10px;
+}
+.let-me{
+width: 147px;
+height: 40px;
+background: #E54A5D;
+border-radius: 50px;
+color:white;
+font-style: normal;
+font-weight: bold;
 }
 
 /* Line 2 */
-
 .line2{
-/* Line 2 */
-position: absolute;
 width: 18px;
 height: 0px;
-left: 1192px;
-top: 45px;
+margin-top: 15px;
 border: 1px solid #E3E0E6;
 transform: rotate(90deg);
 }
-/* Ellipse_7 */
-.Ellipse_7{
-position: absolute;
-left: -95.96%;
-right: -91.26%;
-top: 49.34%;
-bottom: -37.05%;
-background: linear-gradient(360deg, #FA9058 -85579.98%, rgba(255, 255, 255, 0.0001) 20012.39%);
-transform: rotate(-7.73deg);
-}
+ 
  /* Line 1 */
 .line1{
 position: absolute;
 width: 61px;
 height: 0px;
 left: 506px;
-top: 287px;
+top: 260px;
 border: 2px solid #E54A5D;
 }
 
@@ -95,8 +66,6 @@ border: 2px solid #E54A5D;
 
 h2{
 position: absolute;
-width: 288px;
-height: 62px;
 left: 576px;
 top: 225px;
 font-family: Poppins;
@@ -104,20 +73,16 @@ font-style: normal;
 font-weight: bold;
 font-size: 48px;
 line-height: 130%;
-/* or 62px */
 color: #474558;
 }
 
 .paragraphe{
 position: absolute;
 width: 870px;
-height: 112px;
 left: 278px;
 top: 345px;
 font-family: Poppins;
-font-style: normal;
 font-weight: 500;
-font-size: 16px;
 line-height: 28px;
 text-align: center;
 color: #6C6475;
@@ -125,13 +90,10 @@ color: #6C6475;
 .paragraphe1{
 position: absolute;
 width: 885px;
-height: 84px;
 left: 278px;
 top: 505px;
 font-family: Poppins;
-font-style: normal;
 font-weight: 500;
-font-size: 16px;
 line-height: 28px;
 text-align: center;
 color: #6C6475;
@@ -140,9 +102,8 @@ color: #6C6475;
  .design{
 position: absolute;
 width: 184px;
-height: 46px;
 left: 286px;
-top: 853px;
+top: 700px;
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
@@ -156,11 +117,9 @@ color: #474558;
 .Website{
 position: absolute;
 width: 137px;
-height: 46px;
 left: 561px;
-top: 853px;
+top: 700px;
 font-family: Poppins;
-font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 130%;
@@ -170,11 +129,9 @@ color: #474558;
 .Mobile{
 position: absolute;
 width: 137px;
-height: 46px;
 left: 789px;
-top: 853px;
+top: 700px;
 font-family: Poppins;
-font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 130%;
@@ -184,11 +141,9 @@ color: #474558;
 .CRM{
 position: absolute;
 width: 137px;
-height: 46px;
 left: 1017px;
-top: 853px;
+top: 700px;
 font-family: Poppins;
-font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 130%;
@@ -198,33 +153,31 @@ color: #474558;
 h4{
 position: absolute;
 width: 694px;
-height: 48px;
 left: 373px;
-top: 1024px;
+top: 900px;
 font-family: Poppins;
-font-style: normal;
 font-weight: 600;
 font-size: 32px;
 line-height: 48px;
 color: #6C6475;
 }
-.container input{
+.email{
 position: absolute;
 width: 378px;
 height: 40px;
 left: 450px;
-top: 1150px;
+top: 1000px;
 padding:15px;
 background: #FFFFFF;
 border: 1px solid #E2DADB;
 border-radius: 50px;
 }
-.container button{
+ .btn1{
 position: absolute;
 width: 147px;
 height: 40px;
 left: 770px;
-top: 1150px;
+top: 1000px;
 background: #E54A5D;
 border-radius: 60px;
 color:white;
@@ -236,16 +189,13 @@ line-height: 24px;
 /* Footer */
 .creation p{
 position: absolute;
-width: 258px;
-height: 20px;
-left: 500px;
-top: 1270px;
+left: 550px;
+top: 1280px;
 font-family: Poppins;
 font-style: normal;
 font-weight: 500;
 font-size: 13px;
 line-height: 19px;
-/* identical to box height */
 text-align: right;
 color: #6C6475;
 }

@@ -3,17 +3,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who we are ?</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style2.css">
 
 </head>
 <body>
     <div class="banner">
         <div class="container">
-            <img src="images/Logo.svg" alt="Logo">
-            <a href="" class="subscribe">subscribe</a>
-            <a class="who"  href="./index.html" >Who we are ?</a>
-            <p class="Line2"></p>
-            <div class="Ellipse_7"></div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" alt="log">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                      <a data-toggle="modal" data-target="#popUpWindow" class="nav-link" href="#">Subscribe <span class="sr-only"></span></a>
+                      <div class="modal fade" id="popUpWindow">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                              <h5 class="modal-title text-center ">Be the first to know when e-nartek lanches</h5>
+                              <form role="form">
+                                <div class="form-group ">
+                                  <input type="text" class="input" placeholder="Your email goes here"/>
+                                  <button class="let-me">Let me know</button>
+                                </div>
+                              </form>
+                          </div>
+                        </div>
+                      </div>
+                     
+                    </li>
+                    <p class="Line2"></p>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Who we are?</a>
+                    </li>
+                    <li class="nav-item">
+                  </ul>
+                </div>
+              </nav>
             <p class="line1"></p>
             <h2>Who we are</h2>
             <p class="paragraphe">The business world has changed significantly, and there has been a major shift to the digital world and Using creative digital solutions gives you a competitive edge in your business world and a proper digitalization plan can help reinvent processes, improve quality and promote consistency. Digital solutions and services can facilitate trades and settlements worldwide. </p>
@@ -27,8 +56,11 @@
             <span class="Mobile">Mobile Developement</span>
             <span class="CRM">CRM Developement</span>
             <h4>Be the first to know when e-nartek lanches</h4>
-            <input type="text" placeholder="Your email goes here">
-            <button class="btn white">Let me know</button>
+            <div class="form">
+              <input class="email" type="text" placeholder="Your email goes here">
+              <button class="btn1" >Let me know</button>
+            </div>
+            
         </div>
     </div>
     <footer class="footer">

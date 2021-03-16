@@ -1,11 +1,13 @@
-/*****General Style****/
+/*****General Style****/  
 body{
-    overflow-x: hidden;
-    background: #ffff;
-}   
+background: linear-gradient(180deg, #ffff 20%, #f1dded 100%);
+}
+
+
+
 /*****logo Style****/
 img{
-   max-width: 100%;
+max-width: 100%;
 }
 /*****subscribe who we are Style****/
 .navbar-light .navbar-nav .nav-link{
@@ -28,12 +30,10 @@ margin-left: 15px;
 .input{
 width: 320px;
 height: 40px;
-padding:15px;
 background: #FFFFFF;
 border: 1px solid #E2DADB;
 border-radius: 50px;
 margin-top: 50px;
-margin-left: 15px;
 }
 .btn1{
 width: 147px;
@@ -44,8 +44,8 @@ color:white;
 font-style: normal;
 font-weight: bold;
 }
-#popUpWindow{
-border-radius: 50px;    
+.modal-fade{
+border-radius: 16px;
 }
 /* Line 2 */
 .line2{
